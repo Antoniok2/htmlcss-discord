@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: relative;
+    margin: 0 auto;
+    height: 200px;
+    background-color:rgb(9, 96, 211)
+}
+
+.mainnav{
+    width: 80%;
+    margin: 0 auto;
+    /* degub */
+    /* background-color: black; */
+}
+.mainnav li{
+    display: inline-block;
+    list-style: none;
+    
+    
+}
+.mainnav li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 60px;
+    
+}
+
+.mainnav img{
+    display: inline-block;
+}
+
