@@ -121,5 +121,24 @@ p{
     float: right;
     width: 25%;
     height: 200px;
+}
 
+/* sezione 3/4 */
+.section3{
+    height: auto;
+    background-color: yellow;
+}
+
+.item3{
+    margin-top: 300px;
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.textsection3{
+    margin-top: 300px;
+    margin-left: 50px;
+    float: left;
+    width: 20%;
+    height: 200px;
 }
