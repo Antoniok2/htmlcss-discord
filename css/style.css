@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
+
 header{
-    max-width: 80%;
+    max-width: 100%;
     position: relative;
     margin: 0 auto;
     height: 80px;
@@ -58,7 +59,7 @@ nav, .logo{
     /* impostazioni jumbotron */
 .jumbotron{
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 100%;
 }
 .jumbotron img{
     max-width: 100%;
@@ -95,20 +96,21 @@ p{
     clear: both;
 }
 .section1{
-    height: auto;
-    background-color: yellow;
+    height: 200px;
     object-fit: cover;
 }
 
 .item1{
     float: left;
-    width: 50%;
-    height: auto;
+    width: 57%;
+    padding-left: 3%;
+    height: 200px;
 }
 .textsection1{
+    padding-right: 10% ;
     margin-top: 100px;
     float: left;
-    width: 50%;
+    width: 30%;
     height: 200px;
 }
 
@@ -127,8 +129,10 @@ p{
 }
 .textsection2{
     margin-top: 300px;
+    padding-top: 100px;
+    padding-left: 10%;
     float: right;
-    width: 50%;
+    width: 40%;
     height: 200px;
 }
 
@@ -146,13 +150,20 @@ p{
 }
 .textsection3{
     margin: 300px 0;
+    padding-left: 10%;
     float: left;
-    width: 50%;
+    width: 40%;
     height: auto;
 }
 
 /* sezione 4/4 */
 .textsection4{
     margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.bigitem{
     width: 100%;
+    text-align: center;
 }
